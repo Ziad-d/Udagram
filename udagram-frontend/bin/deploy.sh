@@ -1,1 +1,1 @@
-aws s3 cp --recursive --acl public-read ./www s3://ziad-udagram/
+aws s3 cp --recursive --acl public-read ./www s3://ziad-udagram/ 
