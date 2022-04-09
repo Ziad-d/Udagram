@@ -33,3 +33,11 @@ jobs:
           command: |
             npm run frontend:deploy
             npm run backend:deploy
+workflows:
+  build-deploy:
+    jobs:
+      - build:
+        filters:
+          branches:
+            only:
+              - master
